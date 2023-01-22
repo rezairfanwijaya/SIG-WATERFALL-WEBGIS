@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'Kanit' :['Kanit', 'sans-serif']
+    },
   },
   plugins: [
     require('flowbite/plugin')
