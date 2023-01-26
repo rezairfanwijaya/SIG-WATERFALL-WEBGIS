@@ -11,7 +11,7 @@ import curugBayan from '../assets/bayan.jpg'
 import curugCarang from '../assets/carang.jpg'
 import curugTelu from '../assets/telu.jpg'
 import curugJenggala from '../assets/jenggala.jpg'
-import icon from "leaflet/dist/images/marker.png";
+import icon from "leaflet/dist/images/marker-icon-new.png";
 
 const MapWaterfall = () => {
     // set marker
