@@ -1,6 +1,6 @@
 const HeroSection = () => {
     return (<>
-        <div className="hero-section flex flex-col justify-center gap-1 h-screen text-center ">
+        <div className="hero-section flex flex-col justify-center gap-1 h-screen text-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
             <div className="title">
                 <h1 className="text-white font-Kanit text-4xl md:text-7xl lg:text-9xl font-extrabold tracking-wider drop-shadow-xl">WATERFALL</h1>
             </div>

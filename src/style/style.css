@@ -1677,12 +1677,12 @@ input:checked + .toggle-bg{
   justify-content: space-between;
 }
 
-.gap-2{
-  gap: 0.5rem;
-}
-
 .gap-1{
   gap: 0.25rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
 }
 
 .gap-4{
@@ -2009,11 +2009,6 @@ input:checked + .toggle-bg{
 .border-gray-100{
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
-}
-
-.border-red-700{
-  --tw-border-opacity: 1;
-  border-color: rgb(200 30 30 / var(--tw-border-opacity));
 }
 
 .\!bg-transparent{
@@ -2622,14 +2617,9 @@ input:checked + .toggle-bg{
   font-family: Kanit, sans-serif;
 }
 
-.text-9xl{
-  font-size: 8rem;
-  line-height: 1;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-xl{
@@ -2652,41 +2642,30 @@ input:checked + .toggle-bg{
   line-height: 1.5rem;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-7xl{
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-extrabold{
   font-weight: 800;
 }
 
-.font-medium{
-  font-weight: 500;
+.font-extralight{
+  font-weight: 200;
 }
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-medium{
+  font-weight: 500;
 }
 
 .font-normal{
@@ -2695,14 +2674,6 @@ input:checked + .toggle-bg{
 
 .font-bold{
   font-weight: 700;
-}
-
-.font-light{
-  font-weight: 300;
-}
-
-.font-extralight{
-  font-weight: 200;
 }
 
 .uppercase{
@@ -4509,16 +4480,6 @@ input:checked + .toggle-bg{
     padding: 0px;
   }
 
-  .md\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .md\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
   .md\:text-7xl{
     font-size: 4.5rem;
     line-height: 1;
@@ -4527,6 +4488,11 @@ input:checked + .toggle-bg{
   .md\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .md\:font-medium{
