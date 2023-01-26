@@ -56,21 +56,6 @@ const MapWaterfall = () => {
                             </Marker>
                         </div>
                     )))}
-
-                    {/* <Marker position={[-7.323390633703521, 109.26442339050075]}>
-                        <Popup>
-                            <div className="content flex flex-col gap-4">
-                                <img src={curugCeheng} alt="idk" className="w-96" />
-                                <div className="title font-bold text-2xl">
-                                    hehe
-                                </div>
-                                <div className="location">
-                                    hehe
-                                </div>
-                            </div>
-                        </Popup>
-                    </Marker> */}
-
                 </MapContainer>
             </div>
         </div>
