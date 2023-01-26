@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'Kanit' :['Kanit', 'sans-serif']
+      'Kanit' :['Kanit', 'sans-serif'],
+      'Satisfy' : ['Satisfy', 'cursive']
     },
   },
   plugins: [
