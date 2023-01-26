@@ -1,6 +1,7 @@
 import waterfall from './assets/waterfall.jpg';
 import './App.css';
 import HeroSection from './components/HeroSection';
+import MapWaterfall from './components/MapWaterfall';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <img src={waterfall} alt="" className='brightness-50  h-screen lg:h-full' />
       </div>
       <HeroSection/>
+      <MapWaterfall/>
     </>
   );
 }
